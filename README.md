@@ -17,6 +17,6 @@ https://github.com/Thebtiboutheina/finger-up-counter.git
 - pip install cvzone
 
 ## Usage
-Position your hand in front of the camera.
-The application will automatically detect and track your hand.
-The number of fingers will be displayed in real-time on the screen.
+- Position your hand in front of the camera.
+- The application will automatically detect and track your hand.
+- The number of fingers will be displayed in real-time on the screen.
