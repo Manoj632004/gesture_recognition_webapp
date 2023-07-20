@@ -10,11 +10,10 @@ The Finger Counting Application is a computer vision-based project that allows y
 
 To run the Finger Counting Application, follow these steps:
 
-1. Clone the repository:
-https://github.com/Thebtiboutheina/finger-up-counter.git
-2 Install the required dependencies
-- pip install opencv-python
-- pip install cvzone
+1. Clone the repository:https://github.com/Thebtiboutheina/finger-up-counter.git
+2. Install the required dependencies
+    - pip install opencv-python
+    - pip install cvzone
 
 ## Usage
 - Position your hand in front of the camera.
