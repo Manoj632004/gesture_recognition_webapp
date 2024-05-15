@@ -1,7 +1,5 @@
 # Finger Counting Application
 
-![image](https://github.com/Thebtiboutheina/finger-up-counter/assets/58167996/5bf3f6b4-a2f2-4127-9cc5-9b2f424f5529)
-
 ## Description
 
 The Finger Counting Application is a computer vision-based project that allows you to count the number of fingers in real-time using a camera. This application utilizes computer vision techniques to detect and track hand movements, enabling accurate finger counting.
