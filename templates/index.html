@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='/styles/home.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Gesture Detection</title>
+  </head>
+  <body>
+    <div class= "header" >
+      <h1>HAND GESTURE DETECTION</h1>
+    </div>
+    <div class= "main-frame" >
+      <img  src="{{ url_for('main_video_feed') }}">
+    </div>
+        <br>
+    <!--
+    <button id="start_pause_resume_button" onclick="toggleVideo()">Start</button>
+
+    <script>
+        let videoPlaying = false;
+
+        function toggleVideo() {
+            const button = document.getElementById('start_pause_resume_button');
+
+            if (!videoPlaying) {
+                button.innerText = 'Pause';
+                videoPlaying = true;
+            } else {
+                button.innerText = 'Resume';
+                videoPlaying = false;
+            }
+
+            // Send AJAX request to Flask backend to control video capture
+            fetch('/toggle_video', {
+                method: 'POST',
+                body: JSON.stringify({ videoPlaying }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    console.error('Failed to toggle video.');
+                }
+            })
+            .catch(error => {
+                console.error('Error toggling video:', error);
+            });
+        }
+    </script>
+-->
+  </body>
+</html>
