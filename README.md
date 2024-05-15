@@ -4,14 +4,9 @@
 
 The Finger Counting Application is a computer vision-based project that allows you to count the number of fingers in real-time using a camera. This application utilizes computer vision techniques to detect and track hand movements, enabling accurate finger counting.
 
-## Installation
-
-To run the Finger Counting Application, follow these steps:
-
-1. Clone the repository:https://github.com/Thebtiboutheina/finger-up-counter.git
-2. Install the required dependencies
-    - pip install opencv-python
-    - pip install cvzone
+## requirements
+OpenCV
+flask
 
 ## Usage
 - Position your hand in front of the camera.
