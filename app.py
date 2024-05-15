@@ -19,7 +19,8 @@ def main_video_feed():
 def toggle_video():
     video_capture.toggle_video()
     return 'Video toggled successfully.', 200
-"""
+
 if __name__ == '__main__':
     app.run(host = '0.0.0.0',debug=True)
+"""
 
