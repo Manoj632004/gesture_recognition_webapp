@@ -2,4 +2,4 @@ Flask
 opencv-python
 cvzone
 mediapipe
-gunicorn==19.7.1
+
