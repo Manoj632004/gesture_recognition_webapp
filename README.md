@@ -11,6 +11,8 @@ mediapipe
 
 flask
 
+pip install -r requirements.txt
+
 ## Usage
 - Position your hand in front of the camera.
 - The application will automatically detect and track your hand.
