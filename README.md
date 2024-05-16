@@ -6,7 +6,7 @@ The Finger Counting Application is a computer vision-based project that allows y
 
 ## requirements
 OpenCV
-
+mediapipe
 flask
 
 ## Usage
