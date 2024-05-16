@@ -11,7 +11,7 @@ mediapipe
 
 flask
 
-pip install -r requirements.txt
+use 'pip install -r requirements.txt'
 
 ## Usage
 - Position your hand in front of the camera.
